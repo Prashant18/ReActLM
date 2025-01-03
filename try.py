@@ -7,13 +7,13 @@ from typing import Dict, Any, Optional
 from dotenv import load_dotenv
 import aiohttp
 
-from reactlib import (
+from reactlm import (
     Agent, AgentConfig, ExecutionMode,
     OpenAILLM, RedisMemory, SearchTool,
     CHAIN_OF_THOUGHT_PROMPT, TOOL_USE_PROMPT
 )
-from reactlib.core.base import BaseInput, BaseOutput, BaseTool
-from reactlib.core.types import InputType, OutputType
+from reactlm.core.base import BaseInput, BaseOutput, BaseTool
+from reactlm.core.types import InputType, OutputType
 
 # Load environment variables
 load_dotenv()
@@ -241,11 +241,10 @@ async def main():
         
         # Complex research query
         query = """
-        I need a comprehensive analysis of recent developments in quantum computing,
-        focusing on:
+        I want to know everything possible about Amazon Bedrock:
         1. Major breakthroughs in the last 2 years
         2. Current challenges and limitations
-        3. Potential impact on cryptography and security
+        3. Potential impact on LLM and AI in general
         
         Please provide a structured analysis with references.
         """
