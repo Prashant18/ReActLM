@@ -15,13 +15,17 @@ A powerful reactive agent framework powered by Language Models (LLMs). ReActLM p
 - 🛠️ **Extensible** - Plugin architecture for easy tool integration
 - 📝 **Detailed Tracing** - Complete execution traces for debugging and analysis
 
-## 🚀 Quick Start
+## 🚀 Getting Started
 
-### Installation
+Currently, this project is in development. To use it:
 
+1. Clone the repository
 ```bash
-pip install reactlm
+git clone https://github.com/Prashant18/ReActLM.git
+cd ReActLM
 ```
+
+2. Set up your environment and build the project locally
 
 ### Basic Usage
 
@@ -164,35 +168,6 @@ agent = Agent(
 )
 ```
 
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and development process.
-
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- OpenAI for GPT models
-- Brave Search for research capabilities
-- Redis for memory systems
-- All our contributors and users
-
-## 🔗 Links
-- [Issue Tracker](https://github.com/yourusername/reactlm/issues)
-
-## 📧 Contact
-
-For questions and support:
-- Create an issue in the repository
-- Join our [Discord community](https://discord.gg/reactlm)
-- Email: support@reactlm.ai 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
